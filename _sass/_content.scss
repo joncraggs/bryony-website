@@ -8,13 +8,57 @@
 .home-image-text {
     margin-left: auto;
     margin-right: auto;
-    width: 63%;
+    width: 40%;
+    max-width: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-weight: 600;
     @include relative-font-size(4);
 }
+
+.gallery {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+
+    li {
+        height: 20vh;
+        flex-grow: 1;
+        position: relative;
+
+        img {
+            max-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+            vertical-align: bottom;
+        }
+
+        span {
+            display: none;
+        }
+
+        &:hover {
+            span {
+                display: block;
+                position: absolute;
+                background-color: #f8f8f8;
+                opacity: 70%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 0 20px;
+            }
+        }
+    }
+
+    li:last-child {
+        flex-grow: 10;
+    }
+}
+
+
 
 img {
     &.left {
@@ -57,6 +101,38 @@ img {
      }
  }
  
+ .source-title {
+     text-align: end;
+     @include relative-font-size(0.875);
+ }
+
+ .blockquote {
+     position: relative;
+     margin: 0.25em;
+     padding: 0.35em 40px;
+     font-style: italic;
+ }
+
+ .blockquote::before, .blockquote::after {
+    display: block;
+    font-family: Georgia, serif;
+    @include relative-font-size(4);
+    position: absolute;
+ }
+
+ .blockquote::before {
+    padding-left: 10px;
+    content: "\201C";
+    left: -20px;
+    top: -20px;
+ }
+
+ .blockquote::after {
+    padding-right: 10px;
+    content: "\201D";
+    right: -0;
+    bottom: -50px;
+ }
  
  .new-paragraph {
      clear: both;

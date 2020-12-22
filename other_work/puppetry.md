@@ -4,6 +4,8 @@ title: Puppetry
 permalink: /puppetry/
 ---
 
+![Puppetry]({{ site.url}}/images/Puppetry.jpeg){:class="medium left"}
+
 This is the JON Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:

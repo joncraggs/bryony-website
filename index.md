@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-![Bryony Reynolds](/images/Bryony Reynolds.jpg){:class="home-image"}
+![Bryony Reynolds]({{ site.url}}/images/Home Page.jpg){:class="home-image"}
 
 <div class="home-image-text">
     <span>A</span>

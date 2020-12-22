@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Bryony Reynolds](/images/Bryony Reynolds.jpg){:class="small left"}
+![About]({{ site.url}}/images/About.jpg){:class="medium left"}
 
 Bryony Reynolds is an actor specialising in Shakespeare and the classics. Theatre highlights include the award winning Macbeth the Musical (White Bear Theatre), Twelfth Night (Mission Theatre, Bath), Theatre Without Sight or Sound (Old Red Lion), Tess of the d'Urbervilles (Bread & Roses Theatre), Twelfth Night (RSC Dell Theatre), Macbeth (YSC National tour), and Shakespeare in Hell (Exeter Northcott Theatre).
 
