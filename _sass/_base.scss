@@ -210,6 +210,12 @@ html {
       padding-right: $spacing-unit;
       padding-left: $spacing-unit;
     }
+
+    &.main-wrapper {
+      padding-top: $spacing-unit;
+      padding-bottom: $spacing-unit;
+      background-color: $background-color;
+    }
   }
   
   

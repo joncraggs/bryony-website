@@ -3,9 +3,10 @@
  */
  .site-header {
     border-top: 5px solid $border-color-03;
+    border-bottom: 1px solid $border-color-01;
     min-height: $spacing-unit * 1.865;
     line-height: $base-line-height * $base-font-size * 2.25;
-    background-color: $header-color;
+    background-color: $background-color;
   
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -13,11 +14,16 @@
   
   .site-title {
     @include relative-font-size(2.625);
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-  
+    margin-left: -100px;
+    
+    @include media-query(1150px) {
+      margin-left: 0px;
+    }
+
     @include media-query($on-palm) {
       padding-right: 45px;
     }
@@ -25,6 +31,9 @@
     &,
     &:visited {
       color: $site-title-color;
+    }
+    &:hover {
+      text-decoration: none;
     }
   }
   
@@ -60,6 +69,7 @@
       height: 36px;
       z-index: 2;
       cursor: pointer;
+      background-color: $background-color;
     }
   
     input ~ .trigger {
@@ -200,7 +210,8 @@
    * Page content
    */
   .page-content {
-    padding: $spacing-unit 0;
+    // padding: $spacing-unit 0;
+    background-color: $side-background-color;
     flex: 1 0 auto;
   }
   

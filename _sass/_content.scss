@@ -1,3 +1,21 @@
+.home-image {
+    display: block;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-image-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    @include relative-font-size(4);
+}
+
 img {
     &.left {
         float: left;
@@ -45,6 +63,10 @@ img {
  }
  
  @include media-query($on-palm) {
+    .home-image, .home-image-text {
+        width: 85%;
+    }
+
     img {
         &.left {
             float: unset;

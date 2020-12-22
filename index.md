@@ -3,5 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-![Bryony Reynolds](/images/Bryony Reynolds.jpg){:class="medium joined left"}
-![Bryony Reynolds](/images/Bryony Reynolds.jpg){:class="medium joined right"}
+![Bryony Reynolds](/images/Bryony Reynolds.jpg){:class="home-image"}
+
+<div class="home-image-text">
+    <span>A</span>
+    <span>C</span>
+    <span>T</span>
+    <span>O</span>
+    <span>R</span>
+</div>
