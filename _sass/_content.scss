@@ -1,0 +1,67 @@
+img {
+    &.left {
+        float: left;
+        margin-right: 1em;
+    } 
+    &.right {
+        float: right;
+        margin-left: 1em;
+    }
+    &.small {
+        min-width: 200px;
+        width: 25%;
+    }
+    &.medium {
+        width: 50%;
+    }
+    &.large {
+        width: 100%
+    }
+ }
+ 
+ img.joined {
+     &.left {
+         float: left;
+         margin: initial;
+     } 
+     &.right {
+         float: right;
+         margin: initial;
+     }
+     &.small {
+         width: 25%;
+     }
+     &.medium {
+         width: 50%;
+     }
+     &.large {
+         width: 100%
+     }
+ }
+ 
+ 
+ .new-paragraph {
+     clear: both;
+ }
+ 
+ @include media-query($on-palm) {
+    img {
+        &.left {
+            float: unset;
+            margin-right: unset;
+        } 
+        &.right {
+            float: unset;
+            margin-left: unset;
+        }
+        &.small {
+            width: 100%;
+        }
+        &.medium {
+            width: 100%;
+        }
+        &.large {
+            width: 100%;
+        }
+     }
+}

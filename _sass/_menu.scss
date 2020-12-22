@@ -1,0 +1,39 @@
+
+
+.drop-menu {
+    display: inline;
+    position: relative;
+    padding-bottom: 30px;
+
+    > .menu-items {
+        display: none;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        background-color: #fdfdfd;
+        border-left: 1px solid #e8e8e8;
+        border-right: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        .page-link {
+            display: block;
+            padding: 10px;
+            white-space: nowrap;
+        }
+    }
+
+    &:hover {
+        > .menu-items {
+            display: block;   
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    .drop-menu {
+        > .menu-items {
+            position: unset;
+            border: unset;
+            background-color: #f8f8f8;
+        }
+    }
+}
