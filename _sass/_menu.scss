@@ -1,39 +1,144 @@
+.site-nav {      
+    position: sticky;  
+    float: right;
+    background-color: $background-color;
 
-
-.drop-menu {
-    display: inline;
-    position: relative;
-    padding-bottom: 30px;
-
-    > .menu-items {
+    .menu-icon {
         display: none;
-        position: absolute;
-        left: 0;
-        z-index: 1;
-        background-color: $background-color;
-        border-bottom: 1px solid $border-color-01;
-        border-left: 1px solid $border-color-01;
-        border-right: 1px solid $border-color-01;
-        .page-link {
+        span {
             display: block;
-            padding: 10px;
-            white-space: nowrap;
+            width: 33px;
+            height: 4px;
+            margin-bottom: 5px;
+            position: relative;
+            z-index: 2;
+
+            background: $text-color;
+            border-radius: 3px;
+
+            transform-origin: 4px 0px;
+  
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                        background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                        opacity 0.55s ease;
+            &:first-child {
+                transform-origin: 0% 0%;
+            }
+
+            &:nth-last-child(2) {
+                transform-origin: 0% 100%;
+            }
         }
     }
 
-    &:hover {
+    .menu {
+        display: block;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+        padding: 5px 10px;
+
+        display: inline;
+        margin-left: auto;
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    .drop-menu {
+        display: inline;
+        position: relative;
+        padding-bottom: 30px;
+    
         > .menu-items {
-            display: block;   
+            display: none;
+            position: absolute;
+            background-color: $background-color;
+            border-bottom: 1px solid $border-color-01;
+            border-left: 1px solid $border-color-01;
+            border-right: 1px solid $border-color-01;
+            left: 0;
+            z-index: 1;
+
+            .page-link {
+                display: block;
+                white-space: nowrap;
+            }
+        }
+    
+        &:hover {
+            > .menu-items {
+                display: block;   
+            }
         }
     }
 }
 
 @include media-query($on-palm) {
-    .drop-menu {
-        > .menu-items {
-            position: inherit;
-            border: unset;
-            background-color: #f8f8f8;
+    .site-nav {
+        position: absolute;
+        bottom: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+
+        .menu-icon {
+            display: block;
+        }
+
+        .menu {
+            position: absolute;
+            width: 300px;
+            margin-top: 10px;
+            margin-left: -252px;
+
+            background: $background-color;
+            transform-origin: 0% 0%;
+
+            transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        }
+
+        .page-link {
+            display: block;
+    
+            // Gaps between nav items, but not on the last one
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+
+        .drop-menu {
+            > .menu-items {
+                position: inherit;
+                border: none;
+                background-color: #f8f8f8;
+            }
+        }
+
+        &.open {
+            .menu-icon span {
+                opacity: 1;
+                transform: rotate(45deg) translate(-2px, -1px);
+                background: $text-color;
+    
+                &:nth-last-child(2) {
+                    opacity: 0;
+                    transform: rotate(0deg) scale(0.2, 0.2);
+                }
+    
+                &:nth-last-child(1) {
+                    transform: rotate(-45deg) translate(-4px, -3px);
+                }
+            }
+    
+            .menu {
+                display: block;
+                transform: none;
+            }
         }
     }
 }
