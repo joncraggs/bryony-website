@@ -36,7 +36,7 @@ images:
     {%- for rawimage in page.images -%}
     {%- assign image = rawimage.image -%}
     <li>
-        <img src="{{ site.url }}/{{ image.path }}" />
+        <img src="{{ site.url }}/{{ image.path }}" alt="{{ image.title }}"/>
         <span>{{image.title}}</span>
     </li>
     {%- endfor -%}

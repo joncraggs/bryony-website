@@ -42,7 +42,7 @@
    */
   .site-footer {
     border-top: 1px solid $border-color-01;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit / 2 0;
   }
   
   .footer-heading {
@@ -209,7 +209,7 @@
   
   .social-media-list {
     display: table;
-    margin: 0 auto;
+    margin-left: auto;
     li {
       float: left;
       margin: 5px 10px 5px 0;
@@ -217,8 +217,17 @@
       a {
         display: block;
         padding: $spacing-unit / 4;
-        border: 1px solid $border-color-01;
-        &:hover { border-color: $border-color-02 }
+        .svg-icon {
+          width: 32px;
+          height: 32px;
+        }
+
+        &:hover {
+          border-color: $border-color-02;
+          .svg-icon {
+            color: $text-color;
+          }
+        }
       }
     }
   }
@@ -230,6 +239,7 @@
    */
   .pagination {
     margin-bottom: $spacing-unit;
+    margin-right: auto;
     @extend .social-media-list;
     li {
       a, div {

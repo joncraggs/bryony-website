@@ -4,46 +4,30 @@ title: About Me
 permalink: /about/
 ---
 
-![About]({{ site.url}}/images/About.jpg){:class="medium left"}
+![About]({{ site.url }}/images/About.jpg){:class="medium right"}
 
-Bryony Reynolds is an actor specialising in Shakespeare and the classics. Theatre highlights include the award winning Macbeth the Musical (White Bear Theatre), Twelfth Night (Mission Theatre, Bath), Theatre Without Sight or Sound (Old Red Lion), Tess of the d'Urbervilles (Bread & Roses Theatre), Twelfth Night (RSC Dell Theatre), Macbeth (YSC National tour), and Shakespeare in Hell (Exeter Northcott Theatre).
+Bryony Reynolds is an actor specialising in Shakespeare and the classics. Her main work is in theatre, where she has performed the title role of Macbeth in Bard City’s _Macbeth_ directed by RSC’s Owen Horsley; Rose in the award winning _Macbeth the Musical_ (White Bear Theatre), and Olivia in Anthos Arts’ _Twelfth Night_ (Exeter Northcott Theatre & UK tour).
 
-Growing up overseas in Asia and Australasia, her upbringing has given her a deep cultural awareness that has fuelled her drive for the protection of both gender and racial equality. "I am particularly drawn to stage work, in its ability to break down barriers in society and remind people of what’s important.”
+Other theatre highlights include _Theatre Without Sight or Sound_ (Old Red Lion), _Twelfth Night_ (RSC Dell Theatre), _Macbeth_ (YSC National tour), _Tess of the d'Urbervilles (_Bread & Roses Theatre), _Twelfth Night_ (Mission Theatre, Bath) and _Shakespeare in Hell_ (Exeter Northcott Theatre).
 
-Reynolds’ work spans across stage and screen, comedy and tragedy, classical and contemporary, indoor and outdoor theatre, touring and regional performances and everything in-between. Her performances across all genres have been given outstanding reviews, and companies, directors, and actors alike have frequently requested to work with her again.
+I am particularly drawn to stage work, in its ability to break down barriers in society and remind people of what’s important.
+{:class="blockquote"}
 
-## Education
+Growing up overseas in Asia and Australasia, Bryony’s upbringing has given her a deep cultural awareness that has fuelled her drive for the protection of both gender and racial equality. She has co-founded Dirty Kitchen Sink Drama, a company that seeks to muddy up sink dramas, going straight to the heart of social issues that need to be talked about. Most recently, Dirty Kitchen Sink have created a short experimental film Locked, which is being shown at film festivals world-wide, in order to raise awareness of domestic abuse during COVID-19 lockdown.
 
-| Year | Qualification | Where |
-|------|---------------|-------|
-| 2014 | BA Drama      | Exeter University |
+Reynolds’ work spans across stage and screen, comedy and tragedy, classical and contemporary, indoor and outdoor theatre, touring and regional performances and everything in-between. She has also worked as a physical theatre performer and facilitator for various productions, and has even taken an audience on a 5 kilometre run through several forests in an immersive show _Company of Wolves_!
+
+Her performances across all genres have been given outstanding reviews, and companies, directors, and actors alike have frequently requested to work with her again.
+
+## Awards
+
+* Bryony was awarded a **BA Drama Class I Honours** at the University of Exeter
+* Bryony played the role of Rose, in the original premiere production of _Macbeth the Musical_, which was offered an **Offies' Offcomm Commendation**. The Offies (The Off West End Theatre Awards) recognise and celebrate the excellence, innovation and ingenuity of independent theatres across London. The Offies OffComm scheme aims to recognise the excellence of many short run shows at OffWestEnd venues
+
+* Bryony was a grand-finalist and silver-medal semi-finalist of The **World Monologue Games**, making it into the top 20 for both out of 3000+ applicants from over 30 countries world-wide
+
+![Short Run OffComm Commendation]({{ site.url }}/images/offcomm_logo.png){:class=""}
 
 
-## Additional Skills
 
-Languages: English
-Sports Interests: Archery, running, Water-skiing, Horse-riding, netball, swimming
 
-## Industry Awards
-
-Offie Awards Offcomm Commendation for 'Macbeth the Musical'
-
-Qualified Arts Award Advisor
-
-## Acting Experience
-
-Training:
-
-University of Exeter, BA Drama, Class I Honours
-
-Actors Guild, The Tragic Arc, 4 Day residency with Simon Godwin, 2019
-
-Actors Studio (Pinewood Studios), 5 Day Screen Acting with Mel Churcher, 2017
-
-Royal Shakespeare Company (RSC) lab, Short Course with Owen Horsley (RSC Associate Director), 2016
-
-Bristol Old Vic, Acting for the Camera, Short Course, September 2014
-
-NIDA (National Institute of Dramatic Art) Australia: Body Language workshop, January 2009;
-
-Acting Techniques, August 2008
