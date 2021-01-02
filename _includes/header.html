@@ -1,6 +1,6 @@
 <header class="site-header">
 
-    <div class="wrapper">
+    <div class="wrapper header-wrapper">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       {%- assign sorted_paths = page_paths | sort: "weight" -%}
@@ -19,7 +19,7 @@
             <a class="page-link" href="/gallery">Gallery</a>
             <a class="page-link" href="/reviews">Reviews</a>
 
-            <div class="drop-menu">
+            <div class="drop-menu" onclick="void(0);">
               <div class="drop-menu-header page-link">Other Work <i class="arrow down"></i></div>
               <div class="menu-items">
                 <a class="page-link" href="/workshop">Workshop Facilitator</a>

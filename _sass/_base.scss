@@ -32,7 +32,6 @@ html {
     min-height: 100vh;
     flex-direction: column;
     overflow-wrap: break-word;
-    overflow-x: hidden;
   }
   
   
@@ -217,6 +216,7 @@ html {
       padding-bottom: $spacing-unit;
       background-color: $background-color;
     }
+
   }
   
   

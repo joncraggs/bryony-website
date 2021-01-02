@@ -33,6 +33,7 @@
 
     .menu {
         display: block;
+        z-index: 1;
     }
 
     .page-link {
@@ -91,18 +92,16 @@
             position: absolute;
             width: 300px;
             margin-top: 10px;
-            margin-left: -252px;
+            right: calc(100vw);
 
             background: $background-color;
             transform-origin: 0% 0%;
-
-            transform: translateX(100%);
-            -webkit-transform: translateX(100%);
-            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+            transition: right 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
         }
 
         .page-link {
             display: block;
+            @include relative-font-size(1.5);
     
             // Gaps between nav items, but not on the last one
             &:not(:last-child) {
@@ -137,7 +136,21 @@
     
             .menu {
                 display: block;
-                transform: none;
+                right: calc(100vw - 300px);
+            }
+        }
+    }
+}
+
+@include media-query($on-palm) {
+    .site-nav {
+        .menu {
+            width: 100vw;
+        }
+
+        &.open {
+            .menu {
+                right: -15px;
             }
         }
     }

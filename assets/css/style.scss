@@ -1,6 +1,9 @@
 ---
 ---
-
+@font-face {
+    font-family: "Ostrich-Rounded";
+    src: url(/documents/ostrich-rounded.ttf) format("truetype");
+}
 @import
     "_variables",
     "_mixins",

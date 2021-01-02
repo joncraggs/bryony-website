@@ -4,15 +4,11 @@ title: Spoken Word
 permalink: /spokenword/
 ---
 
-This is the JON Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Bryony is a spoken word poet: writing, performing and video editing poignant poems in the aim of bringing hope and enjoyment to audiences worldwide through contemporary poetry. She was commissioned to create the two poems _Dry Bones_ and _HOPE: A Christmas Gift_ for celebration services to be used at HTB Bournemouth’s Lovechurch, and churches worldwide.
+ 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+For more information or to enquire about commissioning a poem for your church, theatre company or organization, please use the [contact us]({{ site.url }}/contact) page.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+{% include youtube.html key="svAgHei_M9c" %}
 
-
-[jekyll-organization]: https://github.com/jekyll
+{% include youtube.html key="BP0glrKeDqo" %}

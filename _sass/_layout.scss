@@ -13,7 +13,8 @@
   }
   
   .site-title {
-    @include relative-font-size(2.625);
+    @include relative-font-size(3.5);
+    font-family: $title-font-family;
     font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -25,7 +26,7 @@
     }
 
     @include media-query($on-palm) {
-      padding-right: 45px;
+      margin-right: 45px;
     }
   
     &,
@@ -220,6 +221,9 @@
         .svg-icon {
           width: 32px;
           height: 32px;
+          &.wide {
+            width: 48px;
+          }
         }
 
         &:hover {

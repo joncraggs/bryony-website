@@ -4,15 +4,14 @@ title: Audio
 permalink: /audio/
 ---
 
-This is the JON Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Alongside acting, Bryony is a signer, pianist, and has performed as voiceover artist for
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Bounce Theatre's _'Thing's to do in a Blackout'_ audio drama.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Bryony is also skilled in accents, and is able to learn accents swiftly. She is experienced in multi-rolling and has performed characters with RP, heightened RP, General American, Australian, West Country, Dorset, Southern Irish and Yorkshire (Leeds) accents.
 
+Below are samples of her accent reel, and her singing and keyboard demo.
 
-[jekyll-organization]: https://github.com/jekyll
+<audio controls preload>
+    <source src="{{ site.url }}/audio/Accentreel-BryonyReynolds.mp3" type="audio/mpeg">
+</audio>

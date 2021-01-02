@@ -27,7 +27,6 @@ Her performances across all genres have been given outstanding reviews, and comp
 * Bryony was a grand-finalist and silver-medal semi-finalist of The **World Monologue Games**, making it into the top 20 for both out of 3000+ applicants from over 30 countries world-wide
 
 ![Short Run OffComm Commendation]({{ site.url }}/images/offcomm_logo.png){:class=""}
+![World Monologue Games]({{ site.url }}/images/WMG.png){:class=""}
 
-
-
-
+[Bryony Reynolds CV]({{ site.url }}/documents/Bryony Reynolds CV.pdf){:target="_blank"}
