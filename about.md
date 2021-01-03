@@ -8,7 +8,7 @@ permalink: /about/
 
 Bryony Reynolds is an actor specialising in Shakespeare and the classics. Her main work is in theatre, where she has performed the title role of Macbeth in Bard City’s _Macbeth_ directed by RSC’s Owen Horsley; Rose in the award winning _Macbeth the Musical_ (White Bear Theatre), and Olivia in Anthos Arts’ _Twelfth Night_ (Exeter Northcott Theatre & UK tour).
 
-Other theatre highlights include _Theatre Without Sight or Sound_ (Old Red Lion), _Twelfth Night_ (RSC Dell Theatre), _Macbeth_ (YSC National tour), _Tess of the d'Urbervilles (_Bread & Roses Theatre), _Twelfth Night_ (Mission Theatre, Bath) and _Shakespeare in Hell_ (Exeter Northcott Theatre).
+Other theatre highlights include _Theatre Without Sight or Sound_ (Old Red Lion), _Twelfth Night_ (RSC Dell Theatre), _Macbeth_ (YSC National tour), _Tess of the d'Urbervilles_ (Bread & Roses Theatre), _Twelfth Night_ (Mission Theatre, Bath) and _Shakespeare in Hell_ (Exeter Northcott Theatre).
 
 I am particularly drawn to stage work, in its ability to break down barriers in society and remind people of what’s important.
 {:class="blockquote"}
