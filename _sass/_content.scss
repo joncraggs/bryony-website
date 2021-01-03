@@ -74,6 +74,52 @@
     }
 }
 
+.gallery-overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    align-items: center;
+    justify-content: center;
+    .gallery-image-container {
+        position: relative;
+        .close-button {
+            position: absolute;
+            right: 5px;
+            top: 10px;
+            span {
+                display: block;
+                width: 33px;
+                height: 4px;
+                margin-bottom: 5px;
+                position: relative;
+                z-index: 2;
+    
+                background: white;
+                border-radius: 3px;  
+      
+                &:first-child {
+                    transform: translateY(9px) rotate(-45deg);
+                }
+                
+                &:last-child {
+                    transform:  rotate(45deg);
+                }
+            }
+        }
+    }
+}
+
+body.overlay-open {
+    overflow: hidden;
+    .gallery-overlay {
+        display: flex;
+    }
+}
+
 // Images
 img {
     &.left {

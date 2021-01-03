@@ -36,10 +36,22 @@ images:
     {%- for rawimage in page.images -%}
     {%- assign image = rawimage.image -%}
     <li>
-        <img src="{{ site.url }}/{{ image.path }}" alt="{{ image.title }}"/>
+        <img src="{{ site.url }}/{{ image.path }}" alt="{{ image.title }}" onclick="overlayImage(this)"/>
         <span>{{image.title}}</span>
     </li>
     {%- endfor -%}
 </ul>
 
-<iframe src="https://player.vimeo.com/video/391805494?" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" id="yui_3_17_2_1_1608744716903_103"></iframe>
+<div class="youtube-embed">
+    <iframe src="https://player.vimeo.com/video/391805494?" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" id="yui_3_17_2_1_1608744716903_103"></iframe>
+</div>
+
+<div class="gallery-overlay">
+    <div class="gallery-image-container">
+        <a href="javascript:void(0);" class="close-button" onclick="closeOverlay()">
+            <span></span>
+            <span></span>
+        </a>
+        <img id="gallery-image"/>
+    </div>
+</div>

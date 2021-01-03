@@ -2,6 +2,8 @@
 layout: post
 title:  "Ella Hickson Masterclass"
 date:   2019-05-14 14:45:50 +0000
+# image: "/images/Bryony Reynolds.jpg"
+# contentsmall: A wonderful case of Benjamin Bunny
 ---
 
 #### Missed our Q&A session with writer Ella Hickson? No fear - Masterclass Member Bryony has got you covered!
