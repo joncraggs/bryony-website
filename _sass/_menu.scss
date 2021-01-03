@@ -90,7 +90,7 @@
 
         .menu {
             position: absolute;
-            width: 300px;
+            width: 100vw;
             margin-top: 10px;
             right: calc(100vw);
 
@@ -136,20 +136,6 @@
     
             .menu {
                 display: block;
-                right: calc(100vw - 300px);
-            }
-        }
-    }
-}
-
-@include media-query($on-palm) {
-    .site-nav {
-        .menu {
-            width: 100vw;
-        }
-
-        &.open {
-            .menu {
                 right: -15px;
             }
         }

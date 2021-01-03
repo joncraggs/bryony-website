@@ -160,6 +160,12 @@
    */
   .post-header {
     margin-bottom: $spacing-unit;
+    display: flex;
+    justify-content: space-between;
+    .title-image {
+      max-width: 100px;
+      max-height: 100px;
+    }
   }
   
   .post-title,

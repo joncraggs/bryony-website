@@ -51,7 +51,18 @@ images:
         <a href="javascript:void(0);" class="close-button" onclick="closeOverlay()">
             <span></span>
             <span></span>
+            <span></span>
         </a>
         <img id="gallery-image"/>
+        <a href="javascript:void(0);" class="prev-button" onclick="galleryPrev()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="javascript:void(0);" class="next-button" onclick="galleryNext()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
     </div>
 </div>

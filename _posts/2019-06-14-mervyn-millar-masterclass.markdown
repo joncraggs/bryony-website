@@ -2,9 +2,12 @@
 layout: post
 title:  "Mervyn Millar Masterclass"
 date:   2019-06-14 14:45:50 +0000
-# image: "/images/Bryony Reynolds.jpg"
+image: "/images/mervyn-millar.jpg"
+titleimage: "/images/mervyn-millar.jpg"
 # contentsmall: A wonderful case of Benjamin Bunny
 ---
+
+[To see original post click here](https://masterclass.org.uk/news-view/guest-blog-mervyn-millar-masterclass)
 
 #### Missed our Puppetry Masterclass recently? Bryony has you covered...
 Ever wondered what happened behind the scenes to create _War Horse_? Or why puppetry is so often used in our industry? Here’s a sneak peak of what we learnt in the latest Masterclass, with puppeteer and director **Mervyn Millar**.

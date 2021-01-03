@@ -99,14 +99,79 @@
                 z-index: 2;
     
                 background: white;
-                border-radius: 3px;  
+                border-radius: 3px;
+                border: 1px solid $text-color;  
       
                 &:first-child {
-                    transform: translateY(9px) rotate(-45deg);
+                    transform: translateY(11px) rotate(-45deg);
                 }
-                
-                &:last-child {
+
+                &:nth-child(2) {
                     transform:  rotate(45deg);
+                }
+
+                &:nth-child(3) {
+                    transform: translateY(-9px)  rotate(-45deg) translateX(1px);
+                    border: none;
+                }
+            }
+        }
+        .prev-button, .next-button {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto 20px;
+            height: 30px;
+            span {
+                display: block;
+                width: 18px;
+                height: 4px;
+                margin-bottom: 5px;
+                position: relative;
+                z-index: 2;
+    
+                background: white;
+                border-radius: 3px;
+                border: 1px solid $text-color;  
+            }
+        }
+        .prev-button {
+            left: 0;
+
+            span {
+                &:first-child {
+                    transform: rotate(-45deg);
+                    // transform: translateY(11px) rotate(-45deg);
+                }
+    
+                &:nth-child(2) {
+                    transform:  rotate(45deg);
+                }
+    
+                &:nth-child(3) {
+                    transform: translateY(-20px) rotate(-45deg) translateX(1px);
+                    // transform: translateY(-9px)  rotate(-45deg) translateX(1px);
+                    border: none;
+                }
+            }
+        }
+        .next-button {
+            right: 0;
+                  
+            span {
+                &:first-child {
+                    transform: rotate(45deg);
+                    // transform: translateY(11px) rotate(-45deg);
+                }
+    
+                &:nth-child(2) {
+                    transform:  rotate(-45deg);
+                }
+    
+                &:nth-child(3) {
+                    transform: translateY(-22px) rotate(45deg) translateX(2px);
+                    // transform: translateY(-9px)  rotate(-45deg) translateX(1px);
+                    border: none;
                 }
             }
         }

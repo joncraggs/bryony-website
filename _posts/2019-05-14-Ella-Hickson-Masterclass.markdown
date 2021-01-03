@@ -2,9 +2,12 @@
 layout: post
 title:  "Ella Hickson Masterclass"
 date:   2019-05-14 14:45:50 +0000
-# image: "/images/Bryony Reynolds.jpg"
+image: "/images/ella-hickson.jpg"
+titleimage: "/images/ella-hickson.jpg"
 # contentsmall: A wonderful case of Benjamin Bunny
 ---
+
+[To see original post click here](https://masterclass.org.uk/news-view/guest-blog-ella-hickson-masterclass)
 
 #### Missed our Q&A session with writer Ella Hickson? No fear - Masterclass Member Bryony has got you covered!
 On the hottest day on record, Ella Hickson was a hero in bracing the heat to come and lead her Masterclass. Thankfully the air-con was on full blast, free cold mocktail drinks were being prepared for us afterwards, making us all very grateful to be there, lapping up Hickson’s fantastic helpful advice.
