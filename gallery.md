@@ -5,31 +5,31 @@ permalink: /gallery/
 images:
     - image:
         path: images/Gallery 1.jpg
-        title: Macbeth in _Macbeth_ by Owen Horsley
+        title: Macbeth in 'Macbeth' by Owen Horsley
     - image: 
         path: images/Gallery 2 Charlotte.jpg
-        title: Sara in _The Bris_, Parkville Pictures. Photo © Charlotte Croft
+        title: Sara, 'The Bris', Parkville Pictures. Photo © Charlotte Croft
     - image: 
         path: images//09_bodmin_stills_selects_Elizabeth_shoot.jpg
         title: Elizabeth Osbourne, Bodmin Jail project by Moonraker VFX
     - image: 
         path: images/Gallery 3 Joshua L. Irwandi.jpg
-        title: Spirit in _The Tempest_, Elysium Theatre Company. Photo © Joshua L. Irwandi
+        title: Spirit, 'The Tempest', Elysium Theatre Company. Photo © Joshua L. Irwandi
     - image: 
         path: images/Snark.jpg
-        title: Isabella, _The Hunting of the Snark_, Burn the Curtain. Photo © Theo Moye
+        title: Isabella, 'The Hunting of the Snark', Burn the Curtain. Photo © Theo Moye
     - image: 
         path: images/Snark_2.jpg
-        title: Isabella, _The Hunting of the Snark_, Burn the Curtain. Photo © Theo Moye
+        title: Isabella, 'The Hunting of the Snark', Burn the Curtain. Photo © Theo Moye
     - image: 
         path: images/The Gathering.jpg
-        title: Tilly Cutler, _The Gathering_ (Verbatim), State of Play Arts. Photo © Alastair Nisbet
+        title: Tilly Cutler, 'The Gathering' (Verbatim), State of Play Arts. Photo © Alastair Nisbet
     - image: 
         path: images/Gallery 4.jpg
-        title: Izzy, _Tess of the d'Urbervilles_, SISATA
+        title: Izzy, 'Tess of the d'Urbervilles', SISATA
     - image: 
         path: images/Gallery 5.jpg
-        title: Hero, _Much Ado About Nothing_, Elysium Theatre Company. Photo © Joshua L. Irwandi 
+        title: Hero, 'Much Ado About Nothing', Elysium Theatre Company. Photo © Joshua L. Irwandi 
 ---
 
 <ul class="gallery">
