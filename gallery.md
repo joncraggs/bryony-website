@@ -5,31 +5,31 @@ permalink: /gallery/
 images:
     - image:
         path: images/Gallery 1.jpg
-        title: This is where the title would go
+        title: Macbeth in _Macbeth_ by Owen Horsley
     - image: 
         path: images/Gallery 2 Charlotte.jpg
-        title: This is where the title would go
+        title: Sara in _The Bris_, Parkville Pictures. Photo © Charlotte Croft
     - image: 
         path: images//09_bodmin_stills_selects_Elizabeth_shoot.jpg
-        title: This is where the title would go
+        title: Elizabeth Osbourne, Bodmin Jail project by Moonraker VFX
     - image: 
         path: images/Gallery 3 Joshua L. Irwandi.jpg
-        title: This is where the title would go
+        title: Spirit in _The Tempest_, Elysium Theatre Company. Photo © Joshua L. Irwandi
     - image: 
         path: images/Snark.jpg
-        title: SNARK!!!!!
+        title: Isabella, _The Hunting of the Snark_, Burn the Curtain. Photo © Theo Moye
     - image: 
         path: images/Snark_2.jpg
-        title: This is where the title would go
+        title: Isabella, _The Hunting of the Snark_, Burn the Curtain. Photo © Theo Moye
     - image: 
         path: images/The Gathering.jpg
-        title: This is where the title would go
+        title: Tilly Cutler, _The Gathering_ (Verbatim), State of Play Arts. Photo © Alastair Nisbet
     - image: 
         path: images/Gallery 4.jpg
-        title: This is where the title would go
+        title: Izzy, _Tess of the d'Urbervilles_, SISATA
     - image: 
         path: images/Gallery 5.jpg
-        title: This is where the title would go
+        title: Hero, _Much Ado About Nothing_, Elysium Theatre Company. Photo © Joshua L. Irwandi 
 ---
 
 <ul class="gallery">
