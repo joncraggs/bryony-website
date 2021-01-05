@@ -13,7 +13,7 @@ Other theatre highlights include _Theatre Without Sight or Sound_ (Old Red Lion)
 I am particularly drawn to stage work, in its ability to break down barriers in society and remind people of what’s important.
 {:class="blockquote"}
 
-Growing up overseas in Asia and Australasia, Bryony’s upbringing has given her a deep cultural awareness that has fuelled her drive for the protection of both gender and racial equality. She has co-founded Dirty Kitchen Sink Drama, a company that seeks to muddy up sink dramas, going straight to the heart of social issues that need to be talked about. Most recently, Dirty Kitchen Sink have created a short experimental film Locked, which is being shown at film festivals world-wide, in order to raise awareness of domestic abuse during COVID-19 lockdown.
+Growing up overseas in Asia and Australasia, Bryony’s upbringing has given her a deep cultural awareness that has fuelled her drive for the protection of both gender and racial equality. She has co-founded Dirty Kitchen Sink Drama, a company that seeks to muddy up sink dramas, going straight to the heart of social issues that need to be talked about. Most recently, Dirty Kitchen Sink have created a short experimental film _Locked_, which is being shown at film festivals world-wide, in order to raise awareness of domestic abuse during COVID-19 lockdown.
 
 Reynolds’ work spans across stage and screen, comedy and tragedy, classical and contemporary, indoor and outdoor theatre, touring and regional performances and everything in-between. She has also worked as a physical theatre performer and facilitator for various productions, and has even taken an audience on a 5 kilometre run through several forests in an immersive show _Company of Wolves_!
 
@@ -22,9 +22,8 @@ Her performances across all genres have been given outstanding reviews, and comp
 ## Awards
 
 * Bryony was awarded a **BA Drama Class I Honours** at the University of Exeter
-* Bryony played the role of Rose, in the original premiere production of _Macbeth the Musical_, which was offered an **Offies' Offcomm Commendation**. The Offies (The Off West End Theatre Awards) recognise and celebrate the excellence, innovation and ingenuity of independent theatres across London. The Offies OffComm scheme aims to recognise the excellence of many short run shows at OffWestEnd venues
-
-* Bryony was a grand-finalist and silver-medal semi-finalist of The **World Monologue Games**, making it into the top 20 for both out of 3000+ applicants from over 30 countries world-wide
+* Bryony played the role of Rose, in the original premiere production of _Macbeth the Musical_, which was offered an **Offies' Offcomm Commendation**. The Offies (The Off West End Theatre Awards) recognises and celebrates the excellence, innovation and ingenuity of independent theatres across London. The Offies OffComm scheme aims to recognise the excellence of many short run shows at OffWestEnd venues
+* Bryony was a two-time finalist for The **World Monologue Games**, making it into the top 20 out of 3000+ applicants from over 30 countries world-wide for both competitions. She is now proudly a grand-finalist and silver-medal semi-finalist of this global competiton.
 
 ![Short Run OffComm Commendation]({{ site.url }}/images/offcomm_logo.png){:class=""}
 ![World Monologue Games]({{ site.url }}/images/WMG.png){:class=""}
