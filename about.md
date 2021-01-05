@@ -15,6 +15,8 @@ I am particularly drawn to stage work, in its ability to break down barriers in 
 
 Growing up overseas in Asia and Australasia, Bryony’s upbringing has given her a deep cultural awareness that has fuelled her drive for the protection of both gender and racial equality. She has co-founded Dirty Kitchen Sink Drama, a company that seeks to muddy up sink dramas, going straight to the heart of social issues that need to be talked about. Most recently, Dirty Kitchen Sink have created a short experimental film _Locked_, which is being shown at film festivals world-wide, in order to raise awareness of domestic abuse during COVID-19 lockdown.
 
+Other films Bryony has starred in include _The Bris of Michael Moshe Solomon_ produced by the award-winning Parkville Pictures, _One Beer_ by Aberration Films Ltd. and _Death in Paris_ by Lisco Productions.
+
 Reynolds’ work spans across stage and screen, comedy and tragedy, classical and contemporary, indoor and outdoor theatre, touring and regional performances and everything in-between. She has also worked as a physical theatre performer and facilitator for various productions, and has even taken an audience on a 5 kilometre run through several forests in an immersive show _Company of Wolves_!
 
 Her performances across all genres have been given outstanding reviews, and companies, directors, and actors alike have frequently requested to work with her again.
