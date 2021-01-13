@@ -1,0 +1,107 @@
+$secondary-color: #2196f3;
+
+.contact-message {
+    font-size: 20px;
+}
+
+#contact-us {
+    .input-group {
+        width: 100%;
+        min-height: 60px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    label {
+        position: absolute;
+        top: 20px;
+        color: rgba($text-color, 0.5);
+        font-size: 20px;
+        cursor: text;
+        transition: 0.25s ease;
+    }
+
+    input,
+    textarea {
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+        border: none;
+        border-radius: 0;
+        color: $text-color;
+        background: $background-color;
+        font-size: 20px;
+        transition: 0.3s ease;
+        &:valid {
+            ~ label {
+                top: 0;
+                font-size: 12px;
+                color: rgba($text-color, 0.5);
+            }
+        }
+        &:focus {
+            outline: none;
+            ~ label {
+                top: 0;
+                font-size: 12px;
+                color: $secondary-color;
+            }
+
+            ~ .bar:before {
+                transform: translateX(0);
+            }
+        }
+        &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0px 1000px $background-color inset;
+            -webkit-text-fill-color: $text-color !important;
+            // border-bottom-color: rgba(white, .5);
+        }
+    }
+
+    textarea {
+        margin-top: 20px;
+        resize: none;
+    }
+
+    .bar {
+        background: rgba($text-color, 0.5);
+        content: "";
+        width: 100%;
+        height: 2px;
+        transition: 0.3s ease;
+
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 150%;
+            background: $secondary-color;
+            transform: translateX(-100%);
+        }
+    }
+
+    ::selection {
+        background: rgba($secondary-color, 0.3);
+    }
+
+    .btn-submit {
+        margin-top: 30px;
+        font-size: 16px;
+        background: $secondary-color;
+        color: mix(white, $secondary-color, 70%);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+        outline: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        &:hover {
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+            background: darken($secondary-color, 5%);
+            color: mix(white, $secondary-color, 85%);
+        }
+    }
+}

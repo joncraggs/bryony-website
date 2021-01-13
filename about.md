@@ -27,7 +27,8 @@ Her performances across all genres have been given outstanding reviews, and comp
 * Bryony played the role of Rose, in the original premiere production of _Macbeth the Musical_, which was offered an **Offies' Offcomm Commendation**. The Offies (The Off West End Theatre Awards) recognises and celebrates the excellence, innovation and ingenuity of independent theatres across London. The Offies OffComm scheme aims to recognise the excellence of many short run shows at OffWestEnd venues
 * Bryony was a two-time finalist for The **World Monologue Games**, making it into the top 20 out of 3000+ applicants from over 30 countries world-wide for both competitions. She is now proudly a grand-finalist and silver-medal semi-finalist of this global competiton.
 
-![Short Run OffComm Commendation]({{ site.url }}/images/offcomm_logo.png){:class=""}
-![World Monologue Games]({{ site.url }}/images/WMG.png){:class=""}
+![Short Run OffComm Commendation]({{ site.url }}/images/offcomm_logo.png){:class="small left"}
+![World Monologue Games]({{ site.url }}/images/WMG.png){:class="medium right"}
 
 [Bryony Reynolds CV]({{ site.url }}/documents/Bryony Reynolds CV.pdf){:target="_blank"}
+{:class="new-paragraph"}

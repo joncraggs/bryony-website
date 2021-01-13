@@ -42,22 +42,35 @@ function galleryUpdateImage(sourceImage) {
 
 // Utilities
 function toggleClass(element, className) {
-    if (element.classList.contains(className)){
-        element.classList.remove(className);
-    }
-    else {
-        element.classList.add(className);
+    if (element){
+        element.classList.toggle(className);
     }
 }
 
 function removeClass(element, className) {
-    if (element && element.classList.contains(className)){
-        element.classList.remove(className);
+    if (element){
+        element.classList.toggle(className, false);
     }
 }
 
 function addClass(element, className){
-    if (element && !element.classList.contains(className)){
-        element.classList.add(className);
+    if (element){
+        element.classList.toggle(className, true);
     }
 }
+
+formcarry({
+    form: "BuYoUtgWC0",
+    element: "#contactus",
+    // extraData: {
+    //   // add whatever you want
+    //   screenSize: `${window.screen.width}x${window.screen.height}`,
+    //   language: window.navigator.language,
+    // },
+    onSuccess: function(response){
+      alert(response)
+    },
+    onError: function(error){
+      alert(error)
+    }
+  });

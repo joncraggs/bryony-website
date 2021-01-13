@@ -1,5 +1,5 @@
-.site-nav {      
-    position: sticky;  
+.site-nav {
+    position: sticky;
     float: right;
     background-color: $background-color;
 
@@ -17,10 +17,9 @@
             border-radius: 3px;
 
             transform-origin: 4px 0px;
-  
-            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                        background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                        opacity 0.55s ease;
+
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
             &:first-child {
                 transform-origin: 0% 0%;
             }
@@ -52,7 +51,7 @@
         display: inline;
         position: relative;
         padding-bottom: 30px;
-    
+
         > .menu-items {
             display: none;
             position: absolute;
@@ -68,10 +67,10 @@
                 white-space: nowrap;
             }
         }
-    
+
         &:hover {
             > .menu-items {
-                display: block;   
+                display: block;
             }
         }
     }
@@ -96,13 +95,13 @@
 
             background: $background-color;
             transform-origin: 0% 0%;
-            transition: right 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+            transition: right 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
         }
 
         .page-link {
             display: block;
             @include relative-font-size(1.5);
-    
+
             // Gaps between nav items, but not on the last one
             &:not(:last-child) {
                 margin-right: 0;
@@ -123,17 +122,17 @@
                 opacity: 1;
                 transform: rotate(45deg) translate(-2px, -1px);
                 background: $text-color;
-    
+
                 &:nth-last-child(2) {
                     opacity: 0;
                     transform: rotate(0deg) scale(0.2, 0.2);
                 }
-    
+
                 &:nth-last-child(1) {
                     transform: rotate(-45deg) translate(-4px, -3px);
                 }
             }
-    
+
             .menu {
                 display: block;
                 right: -15px;
