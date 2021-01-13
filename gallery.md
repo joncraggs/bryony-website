@@ -8,7 +8,7 @@ images:
         title: Macbeth in 'Macbeth' by Owen Horsley
     - image: 
         path: images/Gallery 2 Charlotte.jpg
-        title: Sara, 'The Bris', Parkville Pictures. Photo © Charlotte Croft
+        title: Sara, 'The Bris', Parkville Pictures. Photo © Parkville Pictures
     - image: 
         path: images//09_bodmin_stills_selects_Elizabeth_shoot.jpg
         title: Elizabeth Osbourne, Bodmin Jail project by Moonraker VFX
