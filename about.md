@@ -30,5 +30,6 @@ Her performances across all genres have been given outstanding reviews, and comp
 ![Short Run OffComm Commendation]({{ site.url }}/images/offcomm_logo.png){:class="small left"}
 ![World Monologue Games]({{ site.url }}/images/WMG.png){:class="medium right"}
 
-[Bryony Reynolds CV]({{ site.url }}/documents/Bryony Reynolds CV.pdf){:target="_blank"}
-{:class="new-paragraph"}
+<div class="btn-download-container">
+    <a href="{{ site.url }}/documents/Bryony Reynolds CV.pdf" target="_blank" class="btn-download">Bryony Reynolds CV</a>
+</div>
