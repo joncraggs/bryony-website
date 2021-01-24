@@ -59,18 +59,36 @@ function addClass(element, className){
     }
 }
 
+function showMessage(messageText, type) {
+    let message = document.getElementById('message');
+    message.innerHTML = messageText;
+    message.className = "";
+    addClass(message, 'is-visible');
+    addClass(message, type);
+    setTimeout(function(){
+        removeClass(message, 'is-visible');
+        addClass(message, 'is-hidden');
+        setTimeout(function(){
+            removeClass(message, 'is-hidden');
+            addClass(message, 'is-removed');
+        }, 2000);
+    }, 3000)
+}
+
 formcarry({
     form: "BuYoUtgWC0",
-    element: "#contactus",
+    element: "#contact-us",
     // extraData: {
     //   // add whatever you want
     //   screenSize: `${window.screen.width}x${window.screen.height}`,
     //   language: window.navigator.language,
     // },
     onSuccess: function(response){
-      alert(response)
+        console.log(response);
+        showMessage("Success", "success");
     },
     onError: function(error){
-      alert(error)
+        console.log(error);
+        showMessage("Error", "error");
     }
   });

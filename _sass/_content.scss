@@ -316,6 +316,37 @@ img.joined {
     }
 }
 
+// Message Container
+#message-container {
+    position: relative;
+    #message {
+        &.is-visible { opacity: 1; }
+        &.is-hidden { opacity: 0; }
+        &.is-removed { display: none; }
+    
+        &.success { background-color: #9cc9b2;}
+        &.error { background-color: #EF9A9A;}
+        
+        position: absolute;
+        margin: 0 auto;
+        width: calc(100% - 20px);
+        padding: 10px;
+        background-color: #343434;
+        margin-top: 20px;
+        
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    
+        color: white;
+    }
+}
+
 @include media-query($on-laptop) {
     .home-image {
         .image-content {
