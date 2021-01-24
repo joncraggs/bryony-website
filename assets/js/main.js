@@ -75,20 +75,22 @@ function showMessage(messageText, type) {
     }, 3000)
 }
 
-formcarry({
-    form: "BuYoUtgWC0",
-    element: "#contact-us",
-    // extraData: {
-    //   // add whatever you want
-    //   screenSize: `${window.screen.width}x${window.screen.height}`,
-    //   language: window.navigator.language,
-    // },
-    onSuccess: function(response){
-        console.log(response);
-        showMessage("Success", "success");
-    },
-    onError: function(error){
-        console.log(error);
-        showMessage("Error", "error");
-    }
-  });
+function loadFormCarry() {
+    formcarry({
+        form: "BuYoUtgWC0",
+        element: "#contact-us",
+        // extraData: {
+        //   // add whatever you want
+        //   screenSize: `${window.screen.width}x${window.screen.height}`,
+        //   language: window.navigator.language,
+        // },
+        onSuccess: function(response){
+            console.log(response);
+            showMessage("Success", "success");
+        },
+        onError: function(error){
+            console.log(error);
+            showMessage("Error", "error");
+        }
+      });
+}

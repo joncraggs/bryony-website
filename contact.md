@@ -7,15 +7,10 @@ permalink: /contact/
 If you would like to contact Bryony Reynolds, please fill in your details in the form below.
 {:class="contact-message"}
 
-<form id="contact-us">
+<form id="contact-us" enctype="multipart/form-data">
     <div class="input-group">
-        <input type="text" name="firstName" id="firstName" required>
-        <label for="firstName">First Name</label>
-        <div class="bar"></div>
-    </div>
-    <div class="input-group">
-        <input type="text" name="lastName" id="lastName" required>
-        <label for="lastName">Surname</label>
+        <input type="text" name="name" id="name" required>
+        <label for="name">Name</label>
         <div class="bar"></div>
     </div>
     <div class="input-group">
@@ -28,6 +23,15 @@ If you would like to contact Bryony Reynolds, please fill in your details in the
         <label for="message">Message</label>
         <div class="bar"></div>
     </div>
-    <input type="hidden" name="_gotcha">
+    <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
     <button type="submit" class="btn-submit">Submit</button>
 </form>
+<script>loadFormCarry()</script>
+<script>
+	grecaptcha.ready(function() {
+		grecaptcha.execute('6LeAaToaAAAAAIAKnhdykrSQyzTF3GdpufIxlNbY', {action: 'homepage'})
+		.then(function(token) {
+			document.getElementById('captchaResponse').value = token;
+		});
+	});
+</script>
