@@ -7,6 +7,12 @@
     background-size: cover;
     position: relative;
 
+    .home-copyright {
+        position: absolute;
+        bottom: 0;
+        color: white;
+        font-size: 12px;
+    }
     .image-content {
         display: flex;
         align-items: flex-end;

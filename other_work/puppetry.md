@@ -16,7 +16,7 @@ For the London 2012 Olympics, Bryony performed as a puppeteer using carnival-sty
 
 {:class="new-paragraph"}
 
-In recent years, Bryony has worked with hand puppets for the highly reviewed Stage Splinters show _Macbeth the Musical_ which received the Offcomm: Offies Commendation for it’s run at the White Bear Theatre.
+In recent years, Bryony has worked with hand puppets for the highly reviewed [Stage Splinters](https://www.stagesplinters.com/) show _Macbeth the Musical_ which received the Offcomm: Offies Commendation for it’s run at the White Bear Theatre.
 
 She has also worked with Ancient Greek style full-mask with Chris Vervain Mask Theatre, and is currently experimenting with half-mask for SISATA’s production of _Antigone_ at The Lighthouse, Poole.
 

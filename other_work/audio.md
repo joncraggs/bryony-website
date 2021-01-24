@@ -10,6 +10,12 @@ Bryony is also skilled in accents, being able to pick up any accent swiftly and 
 
 Below are samples of her accent reel as well as her singing and keyboard demo.
 
+#### Accent reel
 <audio controls preload>
     <source src="{{ site.url }}/audio/Accentreel-BryonyReynolds.mp3" type="audio/mpeg">
+</audio>
+
+#### Singing and Keyboard reel
+<audio controls preload>
+    <source src="{{ site.url }}/audio/Singing_And_Keyboard-Bryony Reynolds.mp3" type="audio/mpeg">
 </audio>
