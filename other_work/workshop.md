@@ -10,6 +10,6 @@ She is a trained and qualified Arts Award Advisor (Bronze and Silver). It encomp
 
 ![Arts Award]({{ site.url}}/images/arts-award-logo.jpg){:class="medium center"}
 
-Bryony has also worked in Theatre In Education (TIE) in schools and summer camps with Bigfoot Arts Education and State of Play Arts, and as an Enterprise Practitioner for National Citizen Service (NCS), working with children and youth from KS2-KS5.
+Bryony has also worked in Theatre In Education (TIE) in schools and summer camps with Bigfoot Arts Education and State of Play Arts, as an Enterprise Practitioner for National Citizen Service (NCS), and is currently working with West End In Schools to introduce children to Shakespeare through drama. She works with children of all age groups from KS1 through to KS5.
 
 If you would like Bryony Reynolds to lead a workshop or series of workshops for your school or organization, please enquire using the [contact us]({{ site.url }}/contact) form.
