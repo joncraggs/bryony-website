@@ -4,14 +4,17 @@ title: Archery & Horseriding
 permalink: /skills/
 images:
     - image:
-        path: images/Gallery 1.jpg
-        title: Macbeth in 'Macbeth' by Owen Horsley
+        path: images/Archery.jpg
+        title: Archery
     - image: 
-        path: images/Gallery 2 Charlotte.jpg
-        title: Sara, 'The Bris', Parkville Pictures. Photo © Parkville Pictures
+        path: images/Horseriding.jpg
+        title: Horseriding
     - image: 
-        path: images//09_bodmin_stills_selects_Elizabeth_shoot.jpg
-        title: Elizabeth Osbourne, Bodmin Jail project by Moonraker VFX
+        path: images/HorseArchery.jpg
+        title: Horse Archery
+    - image: 
+        path: images/BADC.jpg
+        title: BADC Combat
 ---
 
 Bryony Reynolds is the current Oxfordshire JIN Champion in flatbow (traditional) archery. 
