@@ -17,9 +17,12 @@ images:
         title: BADC Combat
 ---
 
-Bryony Reynolds is the current Oxfordshire JIN Champion in flatbow (traditional) archery. 
+Bryony Reynolds is the current champion in American Flatbow (traditional) archery for Oxfordshire, GB. 
+Awards include:
+- Gold medalist - County of Oxfordshire JIN Indoor competition 2022 
+- Gold medalist - County of Oxfordshire Senior Outdoor Championships 2022
 
-She is also trained in horseback archery, horse riding, and BADC stage and screen combat in unarmed, rapier and dagger.
+She is also trained in horseback archery, horse riding, and BADC rapier, dagger and unarmed combat for stage and screen.
 
 <div class="youtube-embed">
     <iframe src="https://player.vimeo.com/video/696070099?" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" id="yui_3_17_2_1_1608744716903_103"></iframe>
